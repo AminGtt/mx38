@@ -14,7 +14,7 @@ yam.addEventListener('click', () =>{
   bod.style.backgroundColor = 'blue';
 
   brand_title.innerHTML = 'Yamaha team';
-  logo_img.src = ('img/logo_yam.jpg');
+  logo_img.src = ('img/logo_yam.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
   logo_img.style.width = '100px';
@@ -36,7 +36,7 @@ kawa.addEventListener('click', () =>{
   bod.style.backgroundColor = 'limegreen';
 
   brand_title.innerHTML = 'Kawasaki team';
-  logo_img.src = ('img/logo_kawa.jpg');
+  logo_img.src = ('img/logo_kawa.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
   logo_img.style.width = '100px';
@@ -50,14 +50,14 @@ ktm.addEventListener('click', () =>{
   logo_img.src = ('img/logo_ktm.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
-  logo_img.style.width = '100px';
+  logo_img.style.width = '2 00px';
 });
 
 husq.addEventListener('click', () =>{
   bod.style.backgroundImage = 'linear-gradient(to right, #000090, #ffffff)';
 
   brand_title.innerHTML = 'Husqvarna team';
-  logo_img.src = ('img/logo_husq.jpg');
+  logo_img.src = ('img/logo_husq.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
   logo_img.style.width = '100px';
@@ -68,7 +68,7 @@ suz.addEventListener('click', () =>{
   bod.style.backgroundColor = 'yellow';
 
   brand_title.innerHTML = 'Suzuki team';
-  logo_img.src = ('img/logo_suz.jpg');
+  logo_img.src = ('img/logo_suz.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
   logo_img.style.width = '100px';
