@@ -17,7 +17,7 @@ yam.addEventListener('click', () =>{
   logo_img.src = ('img/logo_yam.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
-  logo_img.style.width = '100px';
+  logo_img.style.width = '500px';
 });
 
 honda.addEventListener('click', () =>{
@@ -39,7 +39,7 @@ kawa.addEventListener('click', () =>{
   logo_img.src = ('img/logo_kawa.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
-  logo_img.style.width = '100px';
+  logo_img.style.width = '500px';
 });
 
 ktm.addEventListener('click', () =>{
@@ -50,7 +50,7 @@ ktm.addEventListener('click', () =>{
   logo_img.src = ('img/logo_ktm.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
-  logo_img.style.width = '2 00px';
+  logo_img.style.width = '200px';
 });
 
 husq.addEventListener('click', () =>{
