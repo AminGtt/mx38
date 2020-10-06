@@ -51,3 +51,13 @@ header div{
   width: 20px;
   border-radius: 20px;
 }
+
+.btn_color{
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+}
+
+#pimp{
+  text-align: center;
+}

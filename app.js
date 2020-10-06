@@ -16,8 +16,8 @@ yam.addEventListener('click', () =>{
   brand_title.innerHTML = 'Yamaha team';
   logo_img.src = ('img/logo_yam.png');
   logo_img.hidden = false;
-  logo_img.style.height = '100px';
-  logo_img.style.width = '500px';
+  logo_img.style.height = '40px';
+  logo_img.style.width = '200px';
 });
 
 honda.addEventListener('click', () =>{
@@ -38,8 +38,8 @@ kawa.addEventListener('click', () =>{
   brand_title.innerHTML = 'Kawasaki team';
   logo_img.src = ('img/logo_kawa.png');
   logo_img.hidden = false;
-  logo_img.style.height = '100px';
-  logo_img.style.width = '500px';
+  logo_img.style.height = '40px';
+  logo_img.style.width = '200px';
 });
 
 ktm.addEventListener('click', () =>{
@@ -73,3 +73,12 @@ suz.addEventListener('click', () =>{
   logo_img.style.height = '100px';
   logo_img.style.width = '100px';
 });
+
+let btn_color = document.querySelector ('.btn_color'),
+    btn_width = document.querySelector('#btn_width'),
+    btn_height = document.querySelector('#btn_height'),
+    pimp_me_style = document.querySelector('#pimp_me');
+
+btn_color.addEventListener('input', () =>{
+  pimp_me_style.style.color = btn_color.value
+})
