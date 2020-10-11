@@ -75,10 +75,31 @@ suz.addEventListener('click', () =>{
 });
 
 let btn_color = document.querySelector ('.btn_color'),
-    btn_width = document.querySelector('#btn_width'),
-    btn_height = document.querySelector('#btn_height'),
+    btn_width_less = document.querySelector('#btn_width_less'),
+    btn_width_more = document.querySelector('#btn_width_more'),
+    btn_height_less = document.querySelector('#btn_height_less'),
+    btn_height_more = document.querySelector('#btn_height_more'),
     pimp_me_style = document.querySelector('#pimp_me');
 
 btn_color.addEventListener('input', () =>{
   pimp_me_style.style.color = btn_color.value
-})
+});
+
+if(pimp_me_style.style.fontSize == ""){
+  pimp_me_style.style.fontSize = '2em'
+};
+
+let new_size_str = pimp_me_style.style.fontSize;
+let new_size = new_size_str.replace(/\D/g, "");
+
+btn_size_less.addEventListener('click', () =>{
+  pimp_me_style.style.fontSize = new_size * 0.9 + 'em';
+  new_size_str = pimp_me_style.style.fontSize;
+  new_size = new_size_str.replace("em", " ")
+});
+
+btn_size_more.addEventListener('click', () =>{
+  pimp_me_style.style.fontSize = new_size * 1.1 + 'em';
+  new_size_str = pimp_me_style.style.fontSize;
+  new_size = new_size_str.replace("em", " ")
+});
