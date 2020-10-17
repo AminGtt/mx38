@@ -14,6 +14,7 @@ yam.addEventListener('click', () =>{
   bod.style.backgroundColor = 'blue';
 
   brand_title.innerHTML = 'Yamaha team';
+  brand_title.style.fontFamily = "Yamaha Reg, sans-serif";
   logo_img.src = ('img/logo_yam.png');
   logo_img.hidden = false;
   logo_img.style.height = '40px';
@@ -25,6 +26,7 @@ honda.addEventListener('click', () =>{
   bod.style.backgroundColor = 'red';
 
   brand_title.innerHTML = 'Honda team';
+  brand_title.style.fontFamily = "Honda Reg, sans-serif";
   logo_img.src = ('img/logo_honda.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
@@ -36,6 +38,7 @@ kawa.addEventListener('click', () =>{
   bod.style.backgroundColor = 'limegreen';
 
   brand_title.innerHTML = 'Kawasaki team';
+  brand_title.style.fontFamily = "Kawasaki Reg, sans-serif";
   logo_img.src = ('img/logo_kawa.png');
   logo_img.hidden = false;
   logo_img.style.height = '40px';
@@ -47,6 +50,7 @@ ktm.addEventListener('click', () =>{
   bod.style.backgroundColor = 'orange';
 
   brand_title.innerHTML = 'KTM team';
+  brand_title.style.fontFamily = "KTM Reg, sans-serif";
   logo_img.src = ('img/logo_ktm.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
@@ -57,6 +61,7 @@ husq.addEventListener('click', () =>{
   bod.style.backgroundImage = 'linear-gradient(to right, #000090, #ffffff)';
 
   brand_title.innerHTML = 'Husqvarna team';
+  brand_title.style.fontFamily = "Husqvarna Reg, sans-serif";
   logo_img.src = ('img/logo_husq.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';
@@ -68,6 +73,7 @@ suz.addEventListener('click', () =>{
   bod.style.backgroundColor = 'yellow';
 
   brand_title.innerHTML = 'Suzuki team';
+  brand_title.style.fontFamily = "Suzuki Reg, sans-serif";
   logo_img.src = ('img/logo_suz.png');
   logo_img.hidden = false;
   logo_img.style.height = '100px';

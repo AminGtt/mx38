@@ -1,7 +1,107 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Yamaha Reg";
+  src: url("font/yam_font/Play-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Yamaha Bold";
+  src: url("font/yam_font/Play-Bold.ttf") format("truetype");
+}
+
+/* END OF YAMAHA FONTS */
+
+@font-face {
+  font-family: "Honda Reg";
+  src: url("font/honda_font/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Honda Bold";
+  src: url("font/honda_font/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Honda Light";
+  src: url("font/honda_font/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Honda Black";
+  src: url("font/honda_font/Montserrat-Black.ttf") format("truetype");
+}
+
+/* END OF HONDA FONTS */
+
+@font-face {
+  font-family: "Kawasaki Reg";
+  src: url("font/kawa_font_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kawasaki Light";
+  src: url("font/kawa_font_light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kawasaki Bold";
+  src: url("font/kawa_font_bold.ttf") format("truetype");
+}
+
+/* END OF Kawasaki FONTS */
+
+@font-face {
+  font-family: "KTM Reg";
+  src: url("font/ktm_font/BlenderPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KTM Light";
+  src: url("font/ktm_font/BlenderPro-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KTM Bold";
+  src: url("font/ktm_font/BlenderPro-Bold.ttf") format("truetype");
+}
+
+/* END OF KTM FONTS */
+
+@font-face {
+  font-family: "Husqvarna Reg";
+  src: url("font/husq_font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Husqvarna Light";
+  src: url("font/husq_font/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Husqvarna Bold";
+  src: url("font/husq_font/OpenSans-Bold.ttf") format("truetype");
+}
+
+/* END OF Kusqvarna FONTS */
+
+@font-face {
+  font-family: "Suzuki Reg";
+  src: url("font/suzu_font.ttf") format("truetype");
+}
+
+/* END OF Suzuki FONTS */
+
 header div{
   text-align: right;
+  margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
 }
 
 #yam{
